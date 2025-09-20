@@ -7,28 +7,25 @@
 </head>
 <body>
     <p>Thank you for using our template to get your input in the loop </p>
-    <a href="C:\Users\candidate916\OneDrive\Documents\Harsha html floder\event.html" target="_blank">click here!</a>
     <script>
         let write = prompt("enter the text");
         let run = +prompt("enter number how many time should run");
                 
-                    if (write===""){
-                        alert("please enter the text")
+                    while (write===""){
                         write = prompt("enter the text")
                     }
-                    else if(isNaN(run) || run<=0){
-                    alert("pease enter the number to run the text")
+                    while(isNaN(run) || run<=0){
                          run = +prompt("enter number how many time should run")
                     }
-                    else{
                       for(let i=0;run>i;i++){
             document.write((i+1) +". "+ write + "<br>");
                       }
-                    }
+                    
     </script>
 </body>
 
 </html>
+
 
 
 
