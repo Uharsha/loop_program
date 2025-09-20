@@ -13,9 +13,11 @@
                 
                     if (write===""){
                         alert("please enter the text")
+                        write = prompt("enter the text")
                     }
                     else if(isNaN(run) || run<=0){
                     alert("pease enter the number to run the text")
+                         run = +prompt("enter number how many time should run")
                     }
                     else{
                       for(let i=0;run>i;i++){
@@ -26,6 +28,7 @@
 </body>
 
 </html>
+
 
 
 
