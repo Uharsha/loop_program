@@ -6,17 +6,26 @@
     <title>For Loop</title>
 </head>
 <body>
-    <h1>Still we are working on this template we need your suggestions to develop this page </h1>
     <p>Thank you for using our template to get your input in the loop </p>
     <script>
         let write = prompt("enter the text");
         let run = +prompt("enter number how many time should run");
                 for(i=0;run>i;i++){
             document.write((i+1) +". "+ write + "<br>");
+                    if (write===""){
+                        alert("please enter the text")
+                    }
+                    elif(run==""){
+                    alert("pease enter the number to run the text")
+                    }
+                    else{
+                        alert ("thank you for giving input")
+                    }
         }
     </script>
 </body>
 
 </html>
+
 
 
